@@ -3,6 +3,6 @@
 * This repository is for my personal website.
 
 * Version 0.0.1:
-- updated README.md
-- initialized index.html
+  - updated README.md
+  - initialized index.html
 
