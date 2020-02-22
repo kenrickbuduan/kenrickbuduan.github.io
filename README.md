@@ -6,3 +6,8 @@
   - updated README.md
   - initialized index.html
 
+* Version 1:
+  - updated index.html
+  - added style.css
+  - added MinCSS framework file (entireframework.css)
+  - added resume.css
