@@ -11,3 +11,6 @@
   - added style.css
   - added MinCSS framework file (entireframework.css)
   - added resume.css
+
+* Version 1.0.1:
+  - minor fixes
