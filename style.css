@@ -28,7 +28,7 @@ a:visited {
 
 .navigation {
     display: inline;
-    margin-right: 40px;
+    padding: 0px 20px 0px 20px;
 }
 
 .social-links {
@@ -71,7 +71,7 @@ a:visited {
 
 @media (max-width:720px) {
     h1 {
-        font-size: 20pt;
+        font-size: 30pt;
     }
     .header {
         padding: 10px 0;
@@ -85,5 +85,10 @@ a:visited {
     .navigation {
         display: block;
         margin: 20px 0;
+        padding: 0px;
+    }
+    .about-me>.c8 {
+        padding-right: 0px;
+        box-sizing: border-box;
     }
 }
