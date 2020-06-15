@@ -1,11 +1,13 @@
 body {
     background-color: #ffffff;
-    font-family: "PT Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 14pt;
     line-height: 1.5;
+    overflow-x: hidden;
 }
 
 h1 {
+    font-family: "Lora", serif;
     margin: 0 auto;
     color: #eeb631;
 }
@@ -38,8 +40,15 @@ a:visited {
     color: #eeb631;
 }
 
-.about-me {
-    text-align: justify;
+.hero-image {
+    position: relative;
+    height: 400px;
+    width: 100vw;
+    margin-left: -50vw;
+    left: 50%;
+    background-image: url("resources/img/header_img.jpg");
+    background-size: cover;
+    background-position: center center;
 }
 
 .about-me>.c8 {
@@ -48,13 +57,17 @@ a:visited {
 }
 
 .btn {
-    min-width: 200px;
+    width: 400px;
     color: #ffffff !important;
     text-transform: uppercase;
 }
 
 .btn-text {
     padding: 0 5px;
+}
+
+.resume {
+    text-align: center;
 }
 
 .footer {
@@ -70,6 +83,9 @@ a:visited {
 }
 
 @media (max-width:720px) {
+    .btn{
+        width: 200px;
+    }
     h1 {
         font-size: 30pt;
     }
