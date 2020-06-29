@@ -22,6 +22,6 @@
 
 ---
 ### Roadmap for Q3-Q4 2020
-[ ] Move to kenrickbuduan.xyz domain
-[ ] Implement minor design changes to social links and resume button
-[ ] Change hero image with something more sensible
+* [ ] Move to kenrickbuduan.xyz domain
+* [ ] Implement minor design changes to social links and resume button
+* [ ] Change hero image with something more sensible
