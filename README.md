@@ -22,6 +22,10 @@
 
 ---
 ### Roadmap for Q3-Q4 2020
-* [ ] Move to kenrickbuduan.xyz domain
-* [ ] Implement minor design changes to social links and resume button
-* [ ] Change hero image with something more sensible
+- [ ] Move to kenrickbuduan.xyz domain
+- [ ] Implement minor design changes to social links and resume button
+
+---
+### Roadmap for Q1 2021
+- [ ] Move whole website into personal framework
+  - I'm also in the process of building my own CSS framework that will serve as a reusable template for my future projects.
