@@ -21,10 +21,6 @@ a:visited {
     color: #0077ee;
 }
 
-.header {
-    padding: 20px 0;
-}
-
 .main-header {
     text-align: center;
 }
@@ -37,7 +33,6 @@ a:visited {
 .social-links {
     margin: 0 auto;
     border-radius: 3px;
-    padding: 5px;
     color: #eeb631;
 }
 
@@ -52,12 +47,15 @@ a:visited {
     background-position: center center;
 }
 
-.about-me>.c8 {
-    padding-right: 50px;
-    box-sizing: border-box;
+.profile-avatar{
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 50%;
 }
 
 .desc-text {
+    margin: 0 auto;
+    padding-left: 3%;
     text-align: justify;
 }
 
@@ -80,6 +78,7 @@ a:visited {
     text-align: center;
 }
 
+/* Specific media queries and dark-theme related optimizations */
 @media (prefers-color-scheme:dark) {
     body {
         background-color: #333333;
@@ -87,29 +86,104 @@ a:visited {
     }
 }
 
-@media (max-width:720px) {
-    .btn{
-        width: 200px;
-    }
-    h1 {
-        font-size: 30pt;
-    }
+/* Tablets */
+@media (min-width:601px) and (max-width:869px) {
     .header {
-        padding: 10px 0;
+        padding: 5px 0;
     }
     .main-header {
         text-align: left;
     }
-    .fab {
-        width: 20px;
+    #header{
+        text-align: left;
+    }
+    #sub-header{
+        margin: 0 auto;
+    }
+    .resume{
+        margin: 3% auto;
+    }
+    .btn{
+        width: 500px;
+    }
+    h1 {
+        font-size: 30pt;
+    }
+    .fab, .fas {
+        text-align: center;
+        width: 30px;
     }
     .navigation {
         display: block;
-        margin: 20px 0;
         padding: 0px;
     }
-    .about-me>.c8 {
-        padding-right: 0px;
-        box-sizing: border-box;
+    .profile-avatar{
+        margin: 0 auto;
+        max-height: 30%;
+        max-width: 30%;
     }
+    .desc-text {
+        padding: 0% 1%;
+        text-align: justify;
+    }
+}
+
+/* Smallest device available */
+@media (max-width:600px) {
+    .header {
+        padding: 5px 0;
+    }
+    .main-header {
+        text-align: left;
+    }
+    #header{
+        text-align: left;
+    }
+    #sub-header{
+        margin: 0 auto;
+    }
+    .resume{
+        margin: 5% auto;
+    }
+    .btn{
+        width: 300px;
+    }
+    h1 {
+        font-size: 25pt;
+    }
+    .fab, .fas {
+        text-align: center;
+        width: 40px;
+    }
+    .navigation {
+        display: block;
+        padding: 0px;
+    }
+    .profile-avatar{
+        max-height: 30%;
+        max-width: 30%;
+    }
+    .desc-text {
+        padding: 0% 1%;
+        text-align: justify;
+    }
+}
+
+/* Browser-specific optimization ahead. First up, Firefox. */
+html {
+    scrollbar-color: #eeb631 #4F4F4F;
+    scrollbar-width: thin;
+}
+
+/* Then, Chromium-based browsers. */
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    background-color: #4F4F4F;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #eeb631;
 }

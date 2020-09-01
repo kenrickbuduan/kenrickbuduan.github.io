@@ -20,12 +20,21 @@
   - updated resume
   - changed header font to serif
 
+* Version 1.6 (September update):
+  - added profile picture
+  - replaced Twitter link with Wordpress
+  - major fixes on paddings and margins
+  - tweaked "About Me" description
+  - added browser-specific code optimizations (including super awesome custom scrollbars!)
+  - Christmas in Our Hearts
+
 ---
 ### Roadmap for Q3-Q4 2020
 - [ ] Move to kenrickbuduan.xyz domain
-- [ ] Implement minor design changes to social links and resume button
-
+- [ ] Tweak website to follow design for best accessibility
+- [X] Implement minor design changes to social links and resume button
+  - It's done! The only thing missing now is the launch of my website under a dedicated domain.
 ---
-### Roadmap for Q1 2021
+### Roadmap for Q1 2021 and beyond
 - [ ] Move whole website into personal framework
   - I'm also in the process of building my own CSS framework that will serve as a reusable template for my future projects.
