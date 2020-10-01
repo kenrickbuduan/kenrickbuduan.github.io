@@ -26,14 +26,17 @@
   - major fixes on paddings and margins
   - tweaked "About Me" description
   - added browser-specific code optimizations (including super awesome custom scrollbars!)
-  - Christmas in Our Hearts
+  - Christmas in Our Hearts (Jose Mari Chan)
+
+* Version 1.6.1 (October Update 1):
+  - Moved domain to kenrickbuduan.xyz
+  - Removed `style-guide` folder
 
 ---
 ### Roadmap for Q3-Q4 2020
-- [ ] Move to kenrickbuduan.xyz domain
+- [X] Move to kenrickbuduan.xyz domain
 - [ ] Tweak website to follow design for best accessibility
 - [X] Implement minor design changes to social links and resume button
-  - It's done! The only thing missing now is the launch of my website under a dedicated domain.
 ---
 ### Roadmap for Q1 2021 and beyond
 - [ ] Move whole website into personal framework
