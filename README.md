@@ -32,6 +32,10 @@
   - Moved domain to kenrickbuduan.xyz
   - Removed `style-guide` folder
 
+* Version 1.6.2 (October Update 2):
+  - Changed header fonts to Libre Baskerville, optimized font legibility
+  - minor footer changes
+
 ---
 ### Roadmap for Q3-Q4 2020
 - [X] Move to kenrickbuduan.xyz domain
